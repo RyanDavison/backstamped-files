@@ -1,0 +1,29 @@
+{
+  "name": "backstamped-files",
+  "version": "1.0.0",
+  "description": "Synchronously write a series of files with different timestamps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "https://github.com/RyanDavison/backstamped-files.git",
+    "type": "git"
+  },
+  "keywords": [
+    "timestamp",
+    "backstamp",
+    "files",
+    "synchronous"
+  ],
+  "author": "Ryan Davison",
+  "license": "MIT",
+  "dependencies": {
+    "before-today": "^2.1.1",
+    "random-array-index": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-files": "^1.4.0"
+  }
+}
