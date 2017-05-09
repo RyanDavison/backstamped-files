@@ -1,6 +1,6 @@
 {
   "name": "backstamped-files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Synchronously write a series of files with different timestamps",
   "main": "index.js",
   "scripts": {
