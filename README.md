@@ -22,7 +22,7 @@ The number of files you want created
 
 Type: String
 
-filename will have an underscore character and a number appended to it to make it unique
+Filename will have an underscore character and a number appended to it to make it unique
 
 ---
 
@@ -30,7 +30,8 @@ filename will have an underscore character and a number appended to it to make i
 
 Type: Array
 
-An array that can have any number of extensions. The extensions will be randomly applied to different files.
+Extensions will be randomly applied to different files.
+
 ---
 
 ## Install
