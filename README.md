@@ -11,12 +11,27 @@ backstamped-files will take an options object as its second argument as follows:
   "ext": ["txt", "js"]
 }
 
-count: the number of files you want created
-filename: filename will have an underscore character and a number appended
-  to it to make it unique
-ext: an array that can have any number of extensions. The extensions will be
-  randomly applied to different files.
+**count**
 
+Type: number
+
+The number of files you want created
+
+---
+**filename**
+
+Type: String
+
+filename will have an underscore character and a number appended to it to make it unique
+
+---
+
+**ext**
+
+Type: Array
+
+An array that can have any number of extensions. The extensions will be randomly applied to different files.
+---
 
 ## Install
 
@@ -27,7 +42,7 @@ npm install --save backstamped-files
 ## Usage
 
 ```
-const createFiles = require('create-test-files');
+const createFiles = require('backstamped-files');
 
 const files = createFiles('/path/to/directory');
 ```
